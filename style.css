@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 4px black solid;
+    margin: 24px;
+    padding: 24px 150px;
+    display: flex;
+    flex-direction: center;
+}
+
+.row{
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-bar{
+    width: 100%;
+    margin-top: 24px;
+    border: solid black 4px;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.box{
+    border: 2px black solid;
+    height: 75px;
+    width: 30%;
+    margin-bottom: 24px;
+}
+
+.box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
